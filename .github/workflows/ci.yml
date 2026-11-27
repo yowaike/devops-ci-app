@@ -61,7 +61,7 @@ jobs:
       - name: Unit tests
         run: python -m pytest -q
 
-   image:
+  image:
     needs: test
     runs-on: ubuntu-latest
     permissions:
